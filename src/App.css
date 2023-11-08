@@ -1,3 +1,4 @@
+/* App.js styles */
 .App {
   text-align: center;
 }
@@ -35,4 +36,96 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Custom styles */
+.heading {
+  background-color: rgb(41, 38, 38);
+  height: 3rem;
+  display: flex;
+  color: white;
+}
+
+.heading div {
+  font-size: 1.2rem;
+  padding: 0.55rem;
+  font-weight: 500;
+}
+
+.heading div:hover {
+  color: rgb(168, 156, 156);
+}
+
+.thdetails {
+  font-size: 1.2rem;
+  background-color: gray;
+}
+
+.thdetails th {
+  padding: 2rem;
+}
+
+.home-left {
+  width: 70%;
+}
+
+.home-right {
+  width: 30%;
+}
+
+.Clients-head {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.create-clients {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.home {
+  display: flex;
+  margin: 4rem;
+}
+
+input {
+  height: 2rem;
+  width: 20rem;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.create-clients-button {
+  height: 2rem;
+  width: 10rem;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+
+.create-clients-button:hover {
+  background-color: rgb(173, 164, 164);
+  color: blue;
+}
+
+.edit-delete{
+  color: blue;
+  font-weight: 700;
+}
+
+.edit-delete span{
+  margin: 5px;
+}
+
+.edit:hover{
+  color: black;
+}
+
+.delete:hover{
+  color: black;
+}
+
+td{
+  font-size: 1.2rem;
 }
